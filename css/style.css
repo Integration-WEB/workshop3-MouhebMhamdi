@@ -17,7 +17,12 @@ body {
   z-index: 1000;
 }
 
+.caption{
+ 
 
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 
 /*============= FOOTER =============*/
 
@@ -60,7 +65,10 @@ body {
 }
 /* Devices under 992px (lg) */
 @media (max-width: 992px) {
-  
+  .caption{
+    top: 30%;
+
+  }
 }
 /* Devices under 768px (md) */
 @media (max-width: 768px) {
